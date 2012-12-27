@@ -1,8 +1,0 @@
-Measuring performance with a cycle counter.
-Processor clock rate ~= 2261.2 MHz
-
-
-correctness check finished, by running tracefile "traces/alaska.rep".
- => correct.
-
-Perf index = 0 (util) & 0 (thru) = 0/100
