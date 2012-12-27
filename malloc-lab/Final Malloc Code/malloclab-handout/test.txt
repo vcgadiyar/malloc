@@ -1,0 +1,198 @@
+Measuring performance with a cycle counter.
+Processor clock rate ~= 2261.0 MHz
+In mm_init
+Heap low=0x403ff0
+Heap start= (nil)
+In Extend_heap
+get prev not free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 512 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 32
+ In find_fit
+bp->0x800000010
+In place c a size 512 40 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000010Changed bp=0x800000038In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 472 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 32
+ In find_fit
+bp->0x800000038
+In place c a size 472 40 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000038Changed bp=0x800000060In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 432 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 32
+ In find_fit
+bp->0x800000060
+In place c a size 432 40 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000060Changed bp=0x800000088In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 392 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 64
+ In find_fit
+bp->0x800000088
+In place c a size 392 72 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000088Changed bp=0x8000000d0In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 320 0 0
+List 12 contents after adding to start:
+In malloc, size requested= 128
+ In find_fit
+bp->0x8000000d0
+In place c a size 320 136 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000000d0Changed bp=0x800000158In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 184 0 0
+List 11 contents after adding to start:
+In malloc, size requested= 1024
+ In find_fit
+asize chunksize extendsize 1032 512 1032
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1216 0 0
+List 14 contents after adding to start:
+In place c a size 1216 1032 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000158Changed bp=0x800000560In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 184 0 0
+List 11 contents after adding to start:
+In malloc, size requested= 32
+ In find_fit
+bp->0x800000560
+In place c a size 184 40 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000560Changed bp=0x800000588In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 144 0 0
+List 11 contents after adding to start:
+In malloc, size requested= 18
+ In find_fit
+bp->0x800000588
+In place c a size 144 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000588Changed bp=0x8000005a0In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 120 0 0
+List 11 contents after adding to start:
+In malloc, size requested= 19
+ In find_fit
+bp->0x8000005a0
+In place c a size 120 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000005a0Changed bp=0x8000005b8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 96 0 0
+List 10 contents after adding to start:
+In malloc, size requested= 21
+ In find_fit
+bp->0x8000005b8
+In place c a size 96 32 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000005b8Changed bp=0x8000005d8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 64 0 0
+List 6 contents after adding to start:
+
+
+correctness check finished, by running tracefile "traces/malloc.rep".
+ => correct.
+
+Perf index = 0 (util) & 0 (thru) = 0/100

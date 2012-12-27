@@ -1,0 +1,1099 @@
+Measuring performance with a cycle counter.
+Processor clock rate ~= 2261.0 MHz
+In mm_init
+Heap low=0x403ff0
+Heap start= (nil)
+In Extend_heap
+get prev not free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 512 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000010
+In place c a size 512 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000010Changed bp=0x800000028In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000028Changed bp=0x800000500In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000500Changed bp=0x8000009d8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000009d8Changed bp=0x800000eb0In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800000eb0Changed bp=0x800001388In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800001388Changed bp=0x800001860In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800001860Changed bp=0x800001d38In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800001d38Changed bp=0x800002210In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800002210Changed bp=0x8000026e8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 24 0 0
+List 1 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000026e8Changed bp=0x800002bc0In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800002bc0Changed bp=0x800003098In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800003098Changed bp=0x800003570In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1728 0 0
+List 15 contents after adding to start:
+In place c a size 1728 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800003570Changed bp=0x800003a48In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+bp->0x800003a48
+successor returned = (nil)
+asize chunksize extendsize 608 512 608
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1096 0 0
+List 14 contents after adding to start:
+In place c a size 1096 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800003a48Changed bp=0x800003ca8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+bp->0x800003ca8
+successor returned = (nil)
+asize chunksize extendsize 608 512 608
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1096 0 0
+List 14 contents after adding to start:
+In place c a size 1096 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800003ca8Changed bp=0x800003f08In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+bp->0x800003f08
+successor returned = (nil)
+asize chunksize extendsize 608 512 608
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1096 0 0
+List 14 contents after adding to start:
+In place c a size 1096 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800003f08Changed bp=0x800004168In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+bp->0x800004168
+successor returned = (nil)
+asize chunksize extendsize 608 512 608
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1096 0 0
+List 14 contents after adding to start:
+In place c a size 1096 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800004168Changed bp=0x8000043c8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 488 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000010
+In place c a size 24 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In malloc, size requested= 16
+ In find_fit
+bp->0x8000043c8
+In place c a size 488 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000043c8Changed bp=0x8000043e0In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 464 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 16
+ In find_fit
+bp->0x8000043e0
+In place c a size 464 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000043e0Changed bp=0x8000043f8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 440 0 0
+List 13 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1240 0 0
+List 14 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+bp->0x800002210
+In place c a size 1240 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In malloc, size requested= 16
+ In find_fit
+bp->0x8000043f8
+In place c a size 440 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x8000043f8Changed bp=0x800004410In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 416 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 16
+ In find_fit
+bp->0x800004410
+In place c a size 416 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800004410Changed bp=0x800004428In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 392 0 0
+List 13 contents after adding to start:
+In malloc, size requested= 16
+ In find_fit
+bp->0x800004428
+In place c a size 392 24 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800004428Changed bp=0x800004440In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1608 0 0
+List 15 contents after adding to start:
+In place c a size 1608 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800004440Changed bp=0x800004918In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 24 0 0
+List 1 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+asize chunksize extendsize 608 512 608
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 976 0 0
+List 14 contents after adding to start:
+In place c a size 976 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800004918Changed bp=0x800004b78In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1240 0 0
+List 14 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 608 0 0
+List 13 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->0x800001388
+heap_start=0x800000000
+In get_offset
+Offset returned = 5000
+add start size bp bp+DSIZE 1240 0 1388
+Input->0x800001d38
+heap_start=0x800000000
+In get_offset
+Offset returned = 7480
+List 14 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+bp->0x800001d38
+In place c a size 1240 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = 0x800001388
+case 2
+In malloc, size requested= 1234
+ In find_fit
+bp->0x800001388
+In place c a size 1240 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1608 0 0
+List 15 contents after adding to start:
+In place c a size 1608 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800004b78Changed bp=0x800005050In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1608 0 0
+List 15 contents after adding to start:
+In place c a size 1608 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800005050Changed bp=0x800005528In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1608 0 0
+List 15 contents after adding to start:
+In place c a size 1608 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800005528Changed bp=0x800005a00In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1608 0 0
+List 15 contents after adding to start:
+In place c a size 1608 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800005a00Changed bp=0x800005ed8In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+asize chunksize extendsize 1240 512 1240
+In Extend_heap
+get prev free
+In coalesce 
+coalcase 3
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1608 0 0
+List 15 contents after adding to start:
+In place c a size 1608 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+Current bp=0x800005ed8Changed bp=0x8000063b0In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 368 0 0
+List 12 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->0x8000043f8
+heap_start=0x800000000
+In get_offset
+Offset returned = 17400
+add start size bp bp+DSIZE 24 0 43f8
+Input->0x800004410
+heap_start=0x800000000
+In get_offset
+Offset returned = 17424
+List 1 contents after adding to start:
+In free
+In coalesce 
+coalcase 2
+In delete list
+In get_pred
+predecessor returned = 0x800004410
+successor returned = (nil)
+case 3
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 48 0 0
+List 4 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 1240 0 0
+List 14 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->0x800005a00
+heap_start=0x800000000
+In get_offset
+Offset returned = 23040
+add start size bp bp+DSIZE 1240 0 5a00
+Input->0x800000500
+heap_start=0x800000000
+In get_offset
+Offset returned = 1280
+List 14 contents after adding to start:
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->0x800000500
+heap_start=0x800000000
+In get_offset
+Offset returned = 1280
+add start size bp bp+DSIZE 1240 0 500
+Input->0x8000026e8
+heap_start=0x800000000
+In get_offset
+Offset returned = 9960
+List 14 contents after adding to start:
+In malloc, size requested= 1234
+ In find_fit
+bp->0x8000026e8
+In place c a size 1240 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = 0x800000500
+case 2
+In malloc, size requested= 1234
+ In find_fit
+bp->0x800000500
+In place c a size 1240 1240 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = 0x800005a00
+case 2
+In free
+In coalesce 
+coalcase 1
+In add_start
+Input->0x800005a00
+heap_start=0x800000000
+In get_offset
+Offset returned = 23040
+add start size bp bp+DSIZE 1240 0 5a00
+Input->0x800002210
+heap_start=0x800000000
+In get_offset
+Offset returned = 8720
+List 14 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+bp->0x800003ca8
+In place c a size 608 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In free
+In coalesce 
+coalcase 2
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = (nil)
+case 1
+In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 72 0 0
+List 7 contents after adding to start:
+In malloc, size requested= 600
+ In find_fit
+bp->0x800002210
+In place c a size 1240 608 
+In delete list
+In get_pred
+predecessor returned = (nil)
+successor returned = 0x800005a00
+case 2
+Current bp=0x800002210Changed bp=0x800002470In add_start
+Input->(nil)
+heap_start=0x800000000
+In get_offset
+Offset returned = 0
+add start size bp bp+DSIZE 632 0 0
+List 13 contents after adding to start:
+In free
+In coalesce 
+coalcase 3
+In delete list

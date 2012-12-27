@@ -1,0 +1,1039 @@
+Measuring performance with a cycle counter.
+Processor clock rate ~= 2261.1 MHz
+
+Testing mm malloc
+Reading tracefile: traces/nlydf.rep
+Checking mm_malloc for correctness, In mm_init
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 4096 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000010
+In place c a size 4096 520 
+Current bp=0x800000010Changed bp=0x800000218In add_start
+add start size bp bp+DSIZE 3576 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000218
+In place c a size 3576 24 
+Current bp=0x800000218Changed bp=0x800000230In add_start
+add start size bp bp+DSIZE 3552 0 0
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000230
+In place c a size 3552 1048 
+Current bp=0x800000230Changed bp=0x800000648In add_start
+add start size bp bp+DSIZE 2504 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000648
+In place c a size 2504 520 
+Current bp=0x800000648Changed bp=0x800000850In add_start
+add start size bp bp+DSIZE 1984 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000850
+In place c a size 1984 24 
+Current bp=0x800000850Changed bp=0x800000868In add_start
+add start size bp bp+DSIZE 1960 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000868
+In place c a size 1960 24 
+Current bp=0x800000868Changed bp=0x800000880In add_start
+add start size bp bp+DSIZE 1936 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000880
+In place c a size 1936 24 
+Current bp=0x800000880Changed bp=0x800000898In add_start
+add start size bp bp+DSIZE 1912 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000898
+In place c a size 1912 520 
+Current bp=0x800000898Changed bp=0x800000aa0In add_start
+add start size bp bp+DSIZE 1392 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000aa0
+In place c a size 1392 520 
+Current bp=0x800000aa0Changed bp=0x800000ca8In add_start
+add start size bp bp+DSIZE 872 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000ca8
+In place c a size 872 24 
+Current bp=0x800000ca8Changed bp=0x800000cc0In add_start
+add start size bp bp+DSIZE 848 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000cc0
+In place c a size 848 24 
+Current bp=0x800000cc0Changed bp=0x800000cd8In add_start
+add start size bp bp+DSIZE 824 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000cd8
+In place c a size 824 520 
+Current bp=0x800000cd8Changed bp=0x800000ee0In add_start
+add start size bp bp+DSIZE 304 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000ee0
+asize chunksize extendsize 520 4096 4096
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 4400 0 0
+In place c a size 4400 520 
+Current bp=0x800000ee0Changed bp=0x8000010e8In add_start
+add start size bp bp+DSIZE 3880 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000010e8
+In place c a size 3880 520 
+Current bp=0x8000010e8Changed bp=0x8000012f0In add_start
+add start size bp bp+DSIZE 3360 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000012f0
+In place c a size 3360 520 
+Current bp=0x8000012f0Changed bp=0x8000014f8In add_start
+add start size bp bp+DSIZE 2840 0 0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 8000014f8
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000010e8
+In place c a size 520 520 
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000014f8
+In place c a size 2840 520 
+Current bp=0x8000014f8Changed bp=0x800001700In add_start
+add start size bp bp+DSIZE 2320 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001700
+In place c a size 2320 24 
+Current bp=0x800001700Changed bp=0x800001718In add_start
+add start size bp bp+DSIZE 2296 0 0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001718
+In place c a size 2296 520 
+Current bp=0x800001718Changed bp=0x800001920In add_start
+add start size bp bp+DSIZE 1776 0 0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001920
+In place c a size 1776 24 
+Current bp=0x800001920Changed bp=0x800001938In add_start
+add start size bp bp+DSIZE 1752 0 0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800001938
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800001718
+bp->0x800001938
+In place c a size 1752 1048 
+Current bp=0x800001938Changed bp=0x800001d50In add_start
+add start size bp bp+DSIZE 704 0 800001718
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001d50
+In place c a size 704 24 
+Current bp=0x800001d50Changed bp=0x800001d68In add_start
+add start size bp bp+DSIZE 680 0 800001718
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800001d68
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000aa0
+bp->0x800001d68
+bp->0x800001718
+asize chunksize extendsize 1048 4096 4096
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 4776 0 800000aa0
+In place c a size 4776 1048 
+Current bp=0x800001d68Changed bp=0x800002180In add_start
+add start size bp bp+DSIZE 3728 0 800000aa0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800002180
+In place c a size 3728 24 
+Current bp=0x800002180Changed bp=0x800002198In add_start
+add start size bp bp+DSIZE 3704 0 800000aa0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800002198
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x8000012f0
+bp->0x800002198
+In place c a size 3704 1048 
+Current bp=0x800002198Changed bp=0x8000025b0place curp curs 2656 8000012f0 800000aa0
+In add_start
+add start size bp bp+DSIZE 2656 0 8000012f0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1040 0 8000025b0
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x8000012f0
+bp->0x8000025b0
+In place c a size 2656 1048 
+Current bp=0x8000025b0Changed bp=0x8000029c8place curp curs 1608 8000012f0 800000aa0
+In add_start
+add start size bp bp+DSIZE 1608 0 8000012f0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000029c8
+In place c a size 1608 520 
+Current bp=0x8000029c8Changed bp=0x800002bd0In add_start
+add start size bp bp+DSIZE 1088 0 8000012f0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800002bd0
+In place c a size 1088 520 
+Current bp=0x800002bd0Changed bp=0x800002dd8In add_start
+add start size bp bp+DSIZE 568 0 8000012f0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800002dd8
+In place c a size 568 24 
+Current bp=0x800002dd8Changed bp=0x800002df0In add_start
+add start size bp bp+DSIZE 544 0 8000012f0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800002df0
+In place c a size 544 520 
+Current bp=0x800002df0Changed bp=0x800002ff8In add_start
+add start size bp bp+DSIZE 24 0 8000012f0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800002ff8
+bp->0x8000012f0
+In place c a size 1040 520 
+Current bp=0x8000012f0Changed bp=0x8000014f8place curp curs 520 800002ff8 800000aa0
+In add_start
+add start size bp bp+DSIZE 520 0 800002ff8
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x8000014f8
+In place c a size 520 24 
+Current bp=0x8000014f8Changed bp=0x800001510In add_start
+add start size bp bp+DSIZE 496 0 800002ff8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800001510
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800002bd0
+In place c a size 520 520 
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800001510
+bp->0x800002ff8
+bp->0x800000aa0
+bp->0x800001718
+asize chunksize extendsize 1048 4096 4096
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 4120 0 800001510
+In place c a size 4120 1048 
+Current bp=0x800002ff8Changed bp=0x800003410In add_start
+add start size bp bp+DSIZE 3072 0 800001510
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800003410
+In place c a size 3072 1048 
+Current bp=0x800003410Changed bp=0x800003828In add_start
+add start size bp bp+DSIZE 2024 0 800001510
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800003828
+In place c a size 2024 520 
+Current bp=0x800003828Changed bp=0x800003a30In add_start
+add start size bp bp+DSIZE 1504 0 800001510
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800003a30
+In place c a size 1504 24 
+Current bp=0x800003a30Changed bp=0x800003a48In add_start
+add start size bp bp+DSIZE 1480 0 800001510
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800003a48
+In place c a size 1480 520 
+Current bp=0x800003a48Changed bp=0x800003c50In add_start
+add start size bp bp+DSIZE 960 0 800001510
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800003c50
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1072 0 800003c50
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001d68
+In place c a size 1072 520 
+Current bp=0x800001d68Changed bp=0x800001f70In add_start
+add start size bp bp+DSIZE 552 0 800003c50
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800001f70
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1040 0 800000cd8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 24 0 800001510
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800003a30
+In place c a size 24 24 
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001510
+In place c a size 1040 520 
+Current bp=0x800001510Changed bp=0x800001718In add_start
+add start size bp bp+DSIZE 520 0 800000cd8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1600 0 800001718
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 544 0 800001f70
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000cc0
+bp->0x800001f70
+In place c a size 1600 1048 
+Current bp=0x800001f70Changed bp=0x800002388place curp curs 552 800000cc0 800001718
+In add_start
+add start size bp bp+DSIZE 552 0 800000cc0
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800002388
+bp->0x800000cc0
+bp->0x800001718
+bp->0x800003c50
+asize chunksize extendsize 1048 4096 4096
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 5056 0 800002388
+In place c a size 5056 1048 
+Current bp=0x800003c50Changed bp=0x800004068In add_start
+add start size bp bp+DSIZE 4008 0 800002388
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800004068
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800002bd0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000648
+In place c a size 520 520 
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800002bd0
+bp->0x800004068
+In place c a size 4008 1048 
+Current bp=0x800004068Changed bp=0x800004480place curp curs 2960 800002bd0 800002388
+In add_start
+add start size bp bp+DSIZE 2960 0 800002bd0
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800004480
+In place c a size 2960 1048 
+Current bp=0x800004480Changed bp=0x800004898In add_start
+add start size bp bp+DSIZE 1912 0 800002bd0
+2
+In malloc, size requested= 16
+ In find_fit
+bp->0x800004898
+In place c a size 1912 24 
+Current bp=0x800004898Changed bp=0x8000048b0In add_start
+add start size bp bp+DSIZE 1888 0 800002bd0
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x8000048b0
+In place c a size 1888 1048 
+Current bp=0x8000048b0Changed bp=0x800004cc8In add_start
+add start size bp bp+DSIZE 840 0 800002bd0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800004cc8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 24 0 800001938
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 24 0 8000014f8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800000880
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800003828
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000cc0
+In place c a size 1064 520 
+Current bp=0x800000cc0Changed bp=0x800000ec8In add_start
+add start size bp bp+DSIZE 544 0 800003828
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 544 0 800000ec8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1040 0 8000012f0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 8000029c8
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000010
+bp->0x8000029c8
+bp->0x8000012f0
+bp->0x800000ec8
+bp->0x800003828
+bp->0x800000880
+bp->0x800001938
+In place c a size 1048 1048 
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000010
+bp->0x8000029c8
+bp->0x8000012f0
+bp->0x800000ec8
+bp->0x800003828
+bp->0x800000880
+bp->0x800004cc8
+bp->0x800002388
+bp->0x800001718
+asize chunksize extendsize 1048 4096 4096
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 4936 0 800000010
+In place c a size 4936 1048 
+Current bp=0x800004cc8Changed bp=0x8000050e0In add_start
+add start size bp bp+DSIZE 3888 0 800000010
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x8000050e0
+In place c a size 3888 1048 
+Current bp=0x8000050e0Changed bp=0x8000054f8In add_start
+add start size bp bp+DSIZE 2840 0 800000010
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 48 0 8000054f8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 72 0 8000054f8
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800000850
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000029c8
+In place c a size 1064 520 
+Current bp=0x8000029c8Changed bp=0x800002bd0In add_start
+add start size bp bp+DSIZE 544 0 800000850
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800002bd0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1568 0 8000048b0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800003410
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800003c50
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000cc0
+In place c a size 1064 520 
+Current bp=0x800000cc0Changed bp=0x800000ec8In add_start
+add start size bp bp+DSIZE 544 0 800003c50
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 544 0 800000ec8
+2
+ERROR [trace ./traces/nlydf.rep, line 90]: block 5 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000aa0
+bp->0x800000ec8
+bp->0x800003c50
+In place c a size 1048 1048 
+2
+ERROR [trace ./traces/nlydf.rep, line 91]: block 5 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 592 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 92]: block 5 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1640 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 93]: block 5 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000230
+In place c a size 1640 520 
+Current bp=0x800000230Changed bp=0x800000438In add_start
+add start size bp bp+DSIZE 1120 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 94]: block 5 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000438
+In place c a size 1120 1048 
+Current bp=0x800000438Changed bp=0x800000850In add_start
+add start size bp bp+DSIZE 72 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 95]: block 5 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000850
+bp->0x800000aa0
+In place c a size 544 520 
+Current bp=0x800000aa0Changed bp=0x800000ca8place curp curs 24 800000850 800000ec8
+In add_start
+add start size bp bp+DSIZE 24 0 800000850
+2
+ERROR [trace ./traces/nlydf.rep, line 96]: block 5 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800000ca8
+bp->0x800000850
+bp->0x800000ec8
+In place c a size 544 520 
+Current bp=0x800000ec8Changed bp=0x8000010d0place curp curs 24 800000850 800003410
+In add_start
+add start size bp bp+DSIZE 24 0 800000ca8
+2
+ERROR [trace ./traces/nlydf.rep, line 97]: block 5 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 8000010d0
+2
+ERROR [trace ./traces/nlydf.rep, line 98]: block 5 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001d68
+In place c a size 520 520 
+2
+ERROR [trace ./traces/nlydf.rep, line 99]: block 5 has 8 garbled bytes, starting at byte 8
+ERROR [trace ./traces/nlydf.rep, line 99]: block 5 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1584 0 8000010d0
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 24 0 8000012f0
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001d50
+bp->0x8000012f0
+In place c a size 1584 520 
+Current bp=0x8000012f0Changed bp=0x8000014f8place curp curs 1064 800001d50 8000010d0
+In add_start
+add start size bp bp+DSIZE 1064 0 800001d50
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000014f8
+In place c a size 1064 520 
+Current bp=0x8000014f8Changed bp=0x800001700In add_start
+add start size bp bp+DSIZE 544 0 800001d50
+2
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001700
+In place c a size 544 520 
+Current bp=0x800001700Changed bp=0x800001908In add_start
+add start size bp bp+DSIZE 24 0 800001d50
+2
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800001908
+bp->0x800001d50
+bp->0x8000010d0
+bp->0x800000ca8
+bp->0x800000850
+bp->0x800003410
+In place c a size 1568 1048 
+Current bp=0x800003410Changed bp=0x800003828place curp curs 520 800000850 8000048b0
+In add_start
+add start size bp bp+DSIZE 520 0 800001908
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 544 0 800003828
+2
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1600 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 107]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 107]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001f70
+In place c a size 1600 24 
+Current bp=0x800001f70Changed bp=0x800001f88In add_start
+add start size bp bp+DSIZE 1576 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 108]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 108]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001f88
+In place c a size 1576 24 
+Current bp=0x800001f88Changed bp=0x800001fa0In add_start
+add start size bp bp+DSIZE 1552 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 109]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 109]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001fa0
+In place c a size 1552 520 
+Current bp=0x800001fa0Changed bp=0x8000021a8In add_start
+add start size bp bp+DSIZE 1032 0 800000aa0
+2
+ERROR [trace ./traces/nlydf.rep, line 110]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 110]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 544 0 8000021a8
+2
+ERROR [trace ./traces/nlydf.rep, line 111]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 111]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800001d50
+2
+ERROR [trace ./traces/nlydf.rep, line 112]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 112]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800000aa0
+In place c a size 1064 24 
+Current bp=0x800000aa0Changed bp=0x800000ab8In add_start
+add start size bp bp+DSIZE 1040 0 800001d50
+2
+ERROR [trace ./traces/nlydf.rep, line 113]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 113]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 48 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 114]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 114]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001908
+In place c a size 48 24 
+Current bp=0x800001908Changed bp=0x800001920In add_start
+add start size bp bp+DSIZE 24 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 115]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 115]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800001920
+bp->0x800000ab8
+bp->0x800001d50
+bp->0x8000021a8
+bp->0x800003828
+bp->0x8000010d0
+bp->0x800000850
+bp->0x8000048b0
+In place c a size 1048 1048 
+2
+ERROR [trace ./traces/nlydf.rep, line 116]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 116]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001920
+In place c a size 24 24 
+2
+ERROR [trace ./traces/nlydf.rep, line 117]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 117]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 118]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 118]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800002ff8
+In place c a size 1048 1048 
+2
+ERROR [trace ./traces/nlydf.rep, line 119]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 119]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000ab8
+bp->0x800001d50
+bp->0x8000021a8
+bp->0x800003828
+bp->0x8000010d0
+bp->0x800000850
+bp->0x800002bd0
+bp->0x8000054f8
+In place c a size 2840 1048 
+Current bp=0x8000054f8Changed bp=0x800005910place curp curs 1792 800002bd0 800000010
+In add_start
+add start size bp bp+DSIZE 1792 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 120]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 120]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800005910
+In place c a size 1792 520 
+Current bp=0x800005910Changed bp=0x800005b18In add_start
+add start size bp bp+DSIZE 1272 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 121]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 121]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800005b18
+In place c a size 1272 24 
+Current bp=0x800005b18Changed bp=0x800005b30In add_start
+add start size bp bp+DSIZE 1248 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 122]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 122]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800005b30
+In place c a size 1248 1048 
+Current bp=0x800005b30Changed bp=0x800005f48In add_start
+add start size bp bp+DSIZE 200 0 800000ab8
+2
+ERROR [trace ./traces/nlydf.rep, line 123]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 123]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800005f48
+2
+ERROR [trace ./traces/nlydf.rep, line 124]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 124]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800002ff8
+In place c a size 1048 520 
+Current bp=0x800002ff8Changed bp=0x800003200In add_start
+add start size bp bp+DSIZE 528 0 800005f48
+2
+ERROR [trace ./traces/nlydf.rep, line 125]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 125]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800003200
+bp->0x800005f48
+bp->0x800000ab8
+bp->0x800001d50
+bp->0x8000021a8
+bp->0x800003828
+bp->0x8000010d0
+bp->0x800000850
+bp->0x800002bd0
+bp->0x800000010
+asize chunksize extendsize 1048 4096 4096
+In Extend_heap
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 4296 0 800003200
+In place c a size 4296 1048 
+Current bp=0x800005f48Changed bp=0x800006360In add_start
+add start size bp bp+DSIZE 3248 0 800003200
+2
+ERROR [trace ./traces/nlydf.rep, line 126]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 126]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800006360
+2
+ERROR [trace ./traces/nlydf.rep, line 127]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 127]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1048 0 800002bd0
+2
+ERROR [trace ./traces/nlydf.rep, line 128]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 128]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 2080 0 8000054f8
+2
+ERROR [trace ./traces/nlydf.rep, line 129]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 129]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 8000021a8
+2
+ERROR [trace ./traces/nlydf.rep, line 130]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 130]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800000230
+bp->0x8000021a8
+In place c a size 2080 1048 
+Current bp=0x8000021a8Changed bp=0x8000025c0place curp curs 1032 800000230 8000054f8
+In add_start
+add start size bp bp+DSIZE 1032 0 800000230
+2
+ERROR [trace ./traces/nlydf.rep, line 131]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 131]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x8000025c0
+In place c a size 1032 520 
+Current bp=0x8000025c0Changed bp=0x8000027c8In add_start
+add start size bp bp+DSIZE 512 0 800000230
+2
+ERROR [trace ./traces/nlydf.rep, line 132]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 132]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 568 0 8000027c8
+2
+ERROR [trace ./traces/nlydf.rep, line 133]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 133]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800001d50
+2
+ERROR [trace ./traces/nlydf.rep, line 134]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 134]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 24 0 800000010
+2
+ERROR [trace ./traces/nlydf.rep, line 135]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 135]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800004898
+bp->0x800000010
+In place c a size 1064 520 
+Current bp=0x800000010Changed bp=0x800000218place curp curs 544 800004898 800001d50
+In add_start
+add start size bp bp+DSIZE 544 0 800004898
+2
+ERROR [trace ./traces/nlydf.rep, line 136]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 136]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800000218
+2
+ERROR [trace ./traces/nlydf.rep, line 137]: block 46 has 8 garbled bytes, starting at byte 24
+ERROR [trace ./traces/nlydf.rep, line 137]: block 32 has 8 garbled bytes, starting at byte 8
+ERROR [trace ./traces/nlydf.rep, line 137]: block 46 has 8 garbled bytes, starting at byte 24
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 520 0 800003a48
+2
+ERROR [trace ./traces/nlydf.rep, line 138]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 1064 0 800001700
+2
+ERROR [trace ./traces/nlydf.rep, line 139]: block 32 has 8 garbled bytes, starting at byte 8
+In free
+In coalesce 
+In add_start
+add start size bp bp+DSIZE 544 0 800003828
+2
+ERROR [trace ./traces/nlydf.rep, line 140]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 1040
+ In find_fit
+bp->0x800001700
+bp->0x800003828
+In place c a size 1064 1048 
+2
+ERROR [trace ./traces/nlydf.rep, line 141]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 512
+ In find_fit
+bp->0x800001700
+In place c a size 544 520 
+Current bp=0x800001700Changed bp=0x800001908In add_start
+add start size bp bp+DSIZE 24 0 800003a48
+2
+ERROR [trace ./traces/nlydf.rep, line 142]: block 59 has 8 garbled bytes, starting at byte 544
+ERROR [trace ./traces/nlydf.rep, line 142]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800001908
+In place c a size 24 24 
+2
+ERROR [trace ./traces/nlydf.rep, line 143]: block 59 has 8 garbled bytes, starting at byte 544
+ERROR [trace ./traces/nlydf.rep, line 143]: block 32 has 8 garbled bytes, starting at byte 8
+In malloc, size requested= 16
+ In find_fit
+bp->0x800003a48
+In place c a size 4227677040 24 
+Current bp=0x800003a48Changed bp=0x800003a60
